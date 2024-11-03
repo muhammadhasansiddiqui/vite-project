@@ -25,16 +25,15 @@ const Hero = () => {
       {/* Image Section */}
       <div className="  lg:mt-0 lg:w-1/2 flex justify-center relative bg-red-900">
         <img
+        
           src={HEROimg}
           alt="hero"
           className="w-5/6 p--10 lg:w-[80%] h-[80vh] object-cover rounded-lg shadow-lg"
         />
-        
+
         {/* Overlay Section */}
-        
-        </div>
       </div>
-    
+    </div>
   );
 };
 

@@ -3,7 +3,7 @@ import HEROimg from "../assets/HERO.png"; // Replace this with the actual path t
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between w-full h-screen bg-gradient-to-r from-[#3F2F2A] to-[#5C3A2D] p-6 lg:p-20">
+    <div className="flex flex-col lg:flex-row items-center justify-between w-full h-full bg-gradient-to-r from-[#3F2F2A] to-[#5C3A2D]">
       {/* Text Section */}
       <div className="text-center lg:text-left lg:w-1/2 space-y-4">
         <h1 className="text-5xl lg:text-7xl font-bold text-[#D3B89F]">
@@ -23,12 +23,12 @@ const Hero = () => {
       </div>
 
       {/* Image Section */}
-      <div className="  lg:mt-0 lg:w-1/2 flex justify-center relative bg-red-900">
+      <div className="  lg:mt-0 lg:w-1/2 flex justify-center relative">
         <img
-        
+
           src={HEROimg}
           alt="hero"
-          className="w-5/6 p--10 lg:w-[80%] h-[80vh] object-cover rounded-lg shadow-lg"
+          className="w-5/6  lg:w-full h-[80vh] object-cover "
         />
 
         {/* Overlay Section */}

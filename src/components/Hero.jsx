@@ -1,11 +1,11 @@
 import React from "react";
-import HEROimg from "../assets/HERO.png"; // Replace this with the actual path to your image
+import HEROimg from "../assets/HERO.png"; 
 
 const Hero = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-between w-full h-full bg-gradient-to-r from-[#3F2F2A] to-[#5C3A2D]">
       {/* Text Section */}
-      <div className="text-center lg:text-left lg:w-1/2 space-y-4">
+      <div className="text-center  m-20 lg:px-50 py-8 lg:py-0 lg:text-left lg:w-1/2 space-y-4 bg-red-600">
         <h1 className="text-5xl lg:text-7xl font-bold text-[#D3B89F]">
           Elza Coffee
         </h1>

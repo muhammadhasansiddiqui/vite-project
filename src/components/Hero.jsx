@@ -10,7 +10,7 @@ const Hero = () => {
           Elza Coffee
         </h1>
         <p className="text-[#D3B89F] text-lg lg:text-2xl max-w-md mx-auto lg:mx-0">
-          Today’s good mood is sponsored by coffee. Search for your coffee now.
+          Today’s good mood is sponsored by coffee.. Search for your coffee now.
         </p>
         <div className="flex gap-4 justify-center lg:justify-start mt-4">
           <button className="px-6 py-2 bg-[#D3B89F] text-[#3F2F2A] font-semibold rounded-lg hover:bg-[#bfa085] transition">

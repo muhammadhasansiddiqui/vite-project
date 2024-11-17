@@ -53,7 +53,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Home
     </Link>
@@ -61,7 +61,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/about"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Menu
     </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/services"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Services
     </Link>
@@ -77,7 +77,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/pricing"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Product
     </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/contact"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Blog
     </Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
   <li>
     <Link
       to="/contact"
-      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#7C573C] md:p-0"
+      className="block w-full px-4 py-2 text-center rounded hover:bg-[#F9E9C8] hover:text-[#270810] md:p-0"
     >
       Contact
     </Link>

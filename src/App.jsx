@@ -12,16 +12,15 @@ function App() {
     <Router>
 
 
-< Work />
 
 
-      {/* <Navbar />
+      <Navbar />
       
-      <Hero/> */}
+      <Hero/>
 
 
 
-      {/* <OurStory/> */}
+      <OurStory/>
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

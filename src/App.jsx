@@ -18,11 +18,11 @@ function App() {
       <Navbar />
       
       <Hero/>
+      <OurStory/>
       <Services  />
 
 
 
-      <OurStory/>
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

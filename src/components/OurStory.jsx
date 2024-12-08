@@ -3,9 +3,13 @@ import HEROimg from "../assets/Image-ourstory.png"; // Replace with your image p
 
 const OurStory = () => {
   return (
-    <div className="w-full bg-gradient-to-r from-[#3F2F2A] to-[#5C3A2D] py-16 px-6 flex justify-center items-center">
+    <div className="w-full bg-gradient-to-r from-[#3F2F2A] to-[#5C3A2D] py-16 px-6 flex justify-center items-center
+    
+
+    ">
       {/* Inner Container with Rounded Corners */}
-      <div className="w-full max-w-6xl bg-[#5C3A2D] rounded-lg relative p-8 flex flex-col lg:flex-row items-center">
+      <div className="w-full max-w-6xl bg-[#5C3A2D] rounded-lg relative p-8 flex flex-col lg:flex-row items-center
+         shadow-xl shadow-[#D3B89F]  ">
         {/* Title at the Top Right */}
         <h2
           className="absolute top-[-20px] right-8 text-[#D3B89F] text-3xl font-bold"

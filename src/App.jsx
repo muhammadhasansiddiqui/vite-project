@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import OurStory from './components/OurStory';
 import Work from './pages/work';
 import Services from './components/Services';
+import Offer from './components/offer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Hero/>
       <OurStory/>
       <Services  />
+      <Offer/>
 
 
 

@@ -28,28 +28,27 @@ const OurStory = () => {
 
         {/* Right Section: Text */}
         <div className="lg:w-1/2 text-[#D3B89F] mt-6 lg:mt-0 lg:pl-8">
-          <h2 className="text-3xl  mb-4 text-[#94293e] font-bold"
-           style={{
-            fontFamily: "'Dancing Script', cursive",
-            color: "#FCEBCA", // Text color
-            textShadow: " 3px 3px 5px rgba(0, 0, 0, 0.8)",
-          }}
-          
-          >up to 50% off </h2>
+          <h2
+            className="text-3xl  mb-4 text-[#94293e] font-bold"
+            style={{
+              fontFamily: "'Dancing Script', cursive",
+              color: "#FCEBCA", // Text color
+              textShadow: " 3px 3px 5px rgba(0, 0, 0, 0.8)",
+            }}
+          >
+            up to 50% off{" "}
+          </h2>
 
-
-
-          <p className="text-lg leading-relaxed font-serif">
+          <p className="font-serif text-lg leading-relaxed">
             At our cafe, we take pride in providing our customers with the best
             coffee around. Our carefully-selected coffees come from some of the
             most renowned coffee growing regions in the world, ensuring that
-            each cup is unrivaled in flavor and freshness.
+            each cup is unrivaled in flavor and freshness....
           </p>
-         
         </div>
 
         {/* Left Section: Image */}
-        <div className="lg:w-1/2 flex justify-center items-center">
+        <div className="flex items-center justify-center lg:w-1/2">
           <img
             src={Proefpakket}
             alt="Proefpakket.png"

@@ -5,19 +5,20 @@ import OurStory from "./components/OurStory";
 import Services from "./components/Services";
 import Reserve from "./components/Reserve";
 import Navbar from "./components/Navbar";
+import Recomm from "./components/recom";
 import Offer from "./components/offer";
 import Hero from "./components/Hero";
-import Work from "./pages/work";
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Hero />
+      <Navbar   />
+      <Hero     />
       <OurStory />
       <Services />
-      <Offer />
-      <Reserve />
+      <Offer    />
+      <Reserve  />
+      <Recomm   />
 
       {/* <Routes>
         <Route path="/" element={<Home />} />

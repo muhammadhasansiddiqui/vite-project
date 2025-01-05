@@ -8,17 +8,19 @@ import Navbar from "./components/Navbar";
 import Recomm from "./components/recom";
 import Offer from "./components/offer";
 import Hero from "./components/Hero";
+import Recom2 from "./components/recom2";
 
 function App() {
   return (
     <Router>
-       <Navbar   />
-      <Hero     />
-     <OurStory />
-      <Services />
-      <Offer    />
-      <Reserve  />
-      <Recomm   />
+       <Navbar  />
+       <Hero    />
+       <OurStory/>
+       <Services/>
+       <Offer   />
+       <Reserve />
+       <Recomm  />
+       <Recom2  />
 
       {/* <Routes>
         <Route path="/" element={<Home />} />

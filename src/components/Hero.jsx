@@ -36,7 +36,8 @@ const Hero = () => {
         <br />
         <br />
 
-        <div className="flex items-center bg-[#634033] py-6 px-4 w-[350px] h-[200px] rounded-t-[20px] space-x-6">
+
+        <div className="flex items-center bg-[#634033] py-6 px-4 w-[300px] h-[200px] rounded-t-[20px] space-x-6">
   {/* Image Section */}
   <img
     className="w-[120px] h-[120px] lg:w-[150px] lg:h-[150px]"

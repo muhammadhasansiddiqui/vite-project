@@ -1,4 +1,7 @@
 import React from 'react';
+import recImg1 from "../assets/recImg1.png"
+import recImg2 from "../assets/recImg2.png"
+import recImg3 from "../assets/recImg3.png"
 
 const Recom2 = () => {
     return (

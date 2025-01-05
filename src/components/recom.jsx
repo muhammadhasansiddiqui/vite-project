@@ -1,24 +1,23 @@
 import React from "react";
-import recImg1 from "../assets/recImg1.png"
-import recImg2 from "../assets/recImg2.png"
-import recImg3 from "../assets/recImg3.png"
-
+import recImg1 from "../assets/recImg1.png";
+import recImg2 from "../assets/recImg2.png";
+import recImg3 from "../assets/recImg3.png";
 
 const Recomm = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#3b2421] min-h-[50%]">
+    <div className="flex flex-col items-center justify-center bg-[#3b2421] min-h-[50%] px-4">
       <h1 className="text-4xl font-bold text-[#fff2de] mt-10">Recommended</h1>
 
-      <div className="flex gap-8 mt-16">
+      <div className="flex flex-wrap justify-center gap-8 mt-16">
         {/* Card 1 */}
-        <div className="bg-[#4a302c] rounded-xl p-5 w-64">
+        <div className="bg-[#4a302c] rounded-xl p-5 w-full sm:w-64">
           <div className="relative">
             <img
               src={recImg1}
               alt="Arabica"
               className="rounded-xl"
             />
-            <span className="absolute top-2 left-2 bg-white text-black p-1 h-1 w-1 text-sm rounded-full">
+            <span className="absolute top-2 left-2 bg-white text-black p-1 text-sm rounded-full">
               i
             </span>
           </div>
@@ -32,7 +31,7 @@ const Recomm = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="bg-[#4a302c] rounded-xl p-5 w-64">
+        <div className="bg-[#4a302c] rounded-xl p-5 w-full sm:w-64">
           <div className="relative">
             <img
               src={recImg2}
@@ -53,7 +52,7 @@ const Recomm = () => {
         </div>
 
         {/* Card 3 */}
-        <div className="bg-[#4a302c] rounded-xl p-5 w-64">
+        <div className="bg-[#4a302c] rounded-xl p-5 w-full sm:w-64">
           <div className="relative">
             <img
               src={recImg3}

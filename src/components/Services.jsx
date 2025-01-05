@@ -1,5 +1,5 @@
 import React from "react";
-import { Coffee, ShoppingBag, Croissant } from "lucide-react";
+// import { Coffee, ShoppingBag, Croissant } from "lucide-react";
 import cofeemacIMG from "../assets/cofeeMac.png";
 import Frame from "../assets/Frame.png";
 import COFEECUPBIG from "../assets/COFEECUPBIG.png";

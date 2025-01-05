@@ -12,9 +12,9 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <Router>
-      <Navbar   />
+       <Navbar   />
       <Hero     />
-      <OurStory />
+     <OurStory />
       <Services />
       <Offer    />
       <Reserve  />

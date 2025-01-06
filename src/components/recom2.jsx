@@ -5,6 +5,7 @@ import recImg3 from "../assets/recImg3.png"
 
 const Recom2 = () => {
     return (
+        // section working 
         <section className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col">

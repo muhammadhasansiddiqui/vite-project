@@ -9,6 +9,7 @@ import Recomm from "./components/recom";
 import Offer from "./components/offer";
 import Hero from "./components/Hero";
 import Recom2 from "./components/recom2";
+import Fot from "./components/fot";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
        <Reserve />
        <Recomm  />
        <Recom2  />
+       <Fot     />
 
       {/* <Routes>
         <Route path="/" element={<Home />} />

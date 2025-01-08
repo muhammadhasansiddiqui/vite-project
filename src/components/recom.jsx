@@ -8,7 +8,7 @@ const Recomm = () => {
     <div className="flex flex-col items-center justify-center bg-[#3b2421] min-h-[50%] px-4">
       <h1 className="text-4xl font-bold text-[#fff2de] mt-10">Recommended</h1>
 
-      <div className="flex flex-wrap justify-center gap-8 mt-16">
+      <div className="flex flex-wrap justify-center gap-8 mt-16 my-4">
         {/* Card 1 */}
         <div className="bg-[#4a302c] rounded-xl p-5 w-full sm:w-64">
           <div className="relative">
